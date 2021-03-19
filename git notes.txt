@@ -1,0 +1,41 @@
+git init
+
+to create a file:
+echo >> filename.txt
+to save a file:
+git add .
+git status
+git commit -m "commit message"
+
+to create branch:
+git checkout -b branchname
+ 
+to merge:
+ 
+git merge branchname
+
+to delete branch:
+git checkout -d branchname
+
+to test for commit :
+git log
+
+
+Remote repo connection:
+
+git remote add origin githuburl
+
+push:
+git push -u origin main
+
+pull:
+git pull origin main
+
+clone:
+git clone githuburl
+
+to reset a last comit:
+git reset HEAD~
+
+
+
